@@ -41,9 +41,6 @@ jobs:
   test-ts-examples:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-        with:
-          ref: ${{ inputs.GIT_SHA }}
 
       - uses: actions/setup-node@v3
         with:
